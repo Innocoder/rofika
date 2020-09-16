@@ -43,6 +43,10 @@
   a:hover {
       text-decoration: none;
   }
+  .img-hover:hover{
+    background: linear-gradient(rgba(0,0,0, 0.9), rgba(0,0,0, .7));
+  }
+  
 
   /* Contact Form */
   .contact-header {
