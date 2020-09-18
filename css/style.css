@@ -1,4 +1,6 @@
-
+body  {
+  overflow-x: hidden;
+}
 
 .carousel-item-home{
     position: relative !important;
