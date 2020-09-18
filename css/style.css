@@ -62,11 +62,11 @@
   /* End of Contact Form */
 
   /* Services page */
-  .carousel-item-services{
+  /* .carousel-item-services{
     position: relative !important;
     width:100%;
     max-height: 300px !important;
-  }
+  } */
 
 
 
@@ -104,6 +104,13 @@
    max-height: 200px;
    max-width: 200px;
 
+  }
+
+  .project img{
+    background: no-repeat center center /cover;
+    background-repeat: no-repeat;
+    background-size: auto;
+    max-height: 300px !important;
   }
 
 
