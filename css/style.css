@@ -68,6 +68,8 @@
     max-height: 300px !important;
   }
 
+
+
   .services .fas {
     color: #fff;
     background:#F2C010;
@@ -94,7 +96,15 @@
     background-color: #F2C010;
   }
   /* End Gallary */
+ .nav-contact a:hover{
+    color: #3769DA;
+  }
 
+  .gallery-img {
+   max-height: 200px;
+   max-width: 200px;
+
+  }
 
 
 
