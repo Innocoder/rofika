@@ -57,6 +57,26 @@ body  {
     background: linear-gradient(rgba(0,0,0, 0.6), rgba(0,0,0, .7)), url(/img/door.jpg) no-repeat center center /cover;
   }
 
+  .windows-header {
+    height: 150px;
+    background: linear-gradient(rgba(0,0,0, 0.6), rgba(0,0,0, .7)), url(/img/window.jpg) no-repeat center center /cover;
+  }
+
+  .gutters-header {
+    height: 150px;
+    background: linear-gradient(rgba(0,0,0, 0.6), rgba(0,0,0, .7)), url(/img/Gutters.jpg) no-repeat center center /cover;
+  }
+
+  .burglar-header {
+    height: 150px;
+    background: linear-gradient(rgba(0,0,0, 0.6), rgba(0,0,0, .7)), url(/img/Burglar.jpg) no-repeat center center /cover;
+  }
+
+  .balustrades-header {
+    height: 150px;
+    background: linear-gradient(rgba(0,0,0, 0.6), rgba(0,0,0, .7)), url(/img/Balustrades.jpg) no-repeat center center /cover;
+  }
+
   .contact-text {
     top: 50%;
     transform: translateY(90%);
