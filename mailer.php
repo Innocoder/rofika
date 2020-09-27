@@ -17,15 +17,24 @@ $email = new PHPMailer();
 
     /* Set the mail sender. */
     $mail->setFrom($email, $first_name);
- 
     /* Add a recipient. */
     $mail->addAddress('info@rofikasteel.co.za', 'Rofika Projects');
- 
     /* Set the subject. */
     $mail->Subject = $service;
- 
     /* Set the mail message body. */
     $mail->Body = $message;
+
+    /* SMTP parameters. */
+   $mail->isSMTP();
+    //From email settings in device connection
+   $mail->Host = 'mail.rofikasteel.com';
+   $mail->SMTPAuth = TRUE;
+    //From email settings in device connection
+   $mail->SMTPSecure = 'tls';
+   $mail->Username = 'info@rofikasteel.co.za';
+   $mail->Password = 'aaaaaaaaaaaaa';
+    //From email settings in device connection
+   $mail->Port = 587;
  
     $mail->send();
 
@@ -33,6 +42,4 @@ $email = new PHPMailer();
     // if(!$mail->send()){
     //     echo $mail->ErrorInfo;
     // };
-
-
 ?>
