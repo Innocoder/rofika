@@ -338,6 +338,8 @@
     </div>
   </footer>
   
+  <!-- End of Footer -->
+  
   <div class="modal fade text-dark" id="contactModal">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -348,31 +350,31 @@
           </button>
         </div>
         <div class="modal-body">
-          <form>
+          <form class="needs-validation" novalidate action="/mailer.php">
             <div class="input-group mb-3">
               <div class="input-group-prepend">
                 <div class="input-group-text bg-warning"><i class="fas fa-user-alt"></i></div>
               </div>
-              <input type="name" class="form-control" id="name"  placeholder="Enter name">
+              <input type="name" class="form-control" id="name"  placeholder="Enter name" required>
             </div>
             <div class="input-group mb-3">
               <div class="input-group-prepend">
                 <div class="input-group-text bg-warning"><i class="fas fa-at"></i></div>
               </div>
-                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email " required>
             </div>
             <div class="input-group mb-3">
               <div class="input-group-prepend">
                 <div class="input-group-text bg-warning"><i class="fas fa-mobile-alt"></i></div>
               </div>
-                <input type="number" class="form-control" id="number" aria-describedby="emailHelp" placeholder="Enter cell number">
+                <input type="number" class="form-control" id="number" aria-describedby="emailHelp" placeholder="Enter cell number" required>
             </div>
             <div class="input-group mb-3">
               <div class="input-group-prepend">
                 <div class="input-group-text bg-warning"><i class="far fa-check-circle"></i></div>
               </div>
-                <select class="form-control" id="ServiceSelect">
-                  <option>Choose Service Needed</option>
+                <select class="form-control" id="ServiceSelect" required>
+                  <option value="">Choose Service Needed</option>
                   <option value="doors">Doors</option>
                   <option value="windows">Windows</option>
                   <option value="balustrades">Balustrades</option>
@@ -385,12 +387,14 @@
               <div class="input-group-prepend">
                 <div class="input-group-text bg-warning"><i class="fas fa-pen"></i></div>
               </div>
-                <textarea class="form-control" id="message" rows="3"></textarea>
+                <textarea class="form-control" id="message" rows="3" required></textarea>
             </div>
+            <button class="btn btn-warning btn-block" type="submit">Submit</button>
+
         </form>
         </div>
         <div class="modal-footer">
-          <button class="btn btn-warning btn-block">Submit</button>
+          
         </div>
       </div>
     </div>
