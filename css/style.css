@@ -1,145 +1,155 @@
-body  {
+body {
   /* overflow-x: hidden; */
 }
 
-.carousel-item-home{
-    position: relative !important;
-    width:100%;
-    max-height: calc(100vh - 100px) !important;
-  }
+.carousel-item-home {
+  position: relative !important;
+  width: 100%;
+  max-height: calc(100vh - 100px) !important;
+}
 
-  .logo{
-    width: 100px;
-  }
+.logo {
+  width: 100px;
+}
 
-  @media (max-width: 576px) { 
-    .head-3{
-      font-size: 1.5rem;
-    }
-    .logo{
-      width: 80px;
-    }
-    .font-contact{
-      font-size: 0.7rem;
-    }
-   }
-
-  .dark-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.7);
+@media (max-width: 576px) {
+  .head-3 {
+    font-size: 1.5rem;
   }
-
-  .carousel-caption {
-    top: 50%;
-    transform: translateY(-60%);
+  .logo {
+    width: 80px;
   }
-
-  .card-img-top {
-      max-height: 150px;
+  .font-contact {
+    font-size: 0.7rem;
   }
+}
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.carousel-caption {
+  top: 50%;
+  transform: translateY(-60%);
+}
+
+.card-img-top {
+  max-height: 150px;
+}
 /* Not taaking effect */
-  a:hover {
-      text-decoration: none;
-      color: #427BFF;
-  }
-  .img-hover:hover{
-    background: linear-gradient(rgba(0,0,0, 0.9), rgba(0,0,0, .7));
-  }
-  
+a:hover {
+  text-decoration: none;
+  color: #427bff;
+}
+.img-hover:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7));
+}
 
-  /* Contact Form */
-  .contact-header {
-    height: 150px;
-    background: linear-gradient(rgba(0,0,0, 0.6), rgba(0,0,0, .7)), url(/img/door.jpg) no-repeat center center /cover;
-  }
+/* Contact Form */
+.contact-header {
+  height: 150px;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url(/img/door.jpg) no-repeat center center / cover;
+}
 
-  .windows-header {
-    height: 150px;
-    background: linear-gradient(rgba(0,0,0, 0.6), rgba(0,0,0, .7)), url(/img/window.jpg) no-repeat center center /cover;
-  }
+.windows-header {
+  height: 150px;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url(/img/window.jpg) no-repeat center center / cover;
+}
 
-  .gutters-header {
-    height: 150px;
-    background: linear-gradient(rgba(0,0,0, 0.6), rgba(0,0,0, .7)), url(/img/Gutters.jpg) no-repeat center center /cover;
-  }
+.gutters-header {
+  height: 150px;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url(/img/Gutters.jpg) no-repeat center center / cover;
+}
 
-  .burglar-header {
-    height: 150px;
-    background: linear-gradient(rgba(0,0,0, 0.6), rgba(0,0,0, .7)), url(/img/Burglar.jpg) no-repeat center center /cover;
-  }
+.burglar-header {
+  height: 150px;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url(/img/Burglar.jpg) no-repeat center center / cover;
+}
 
-  .balustrades-header {
-    height: 150px;
-    background: linear-gradient(rgba(0,0,0, 0.6), rgba(0,0,0, .7)), url(/img/Balustrades.jpg) no-repeat center center /cover;
-  }
+.balustrades-header {
+  height: 150px;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url(/img/Balustrades.jpg) no-repeat center center / cover;
+}
 
-  .contact-text {
-    top: 50%;
-    transform: translateY(90%);
-  }
-  /* End of Contact Form */
+.contact-text {
+  top: 50%;
+  transform: translateY(90%);
+}
+/* End of Contact Form */
 
-  /* Services page */
-  /* .carousel-item-services{
+/* Services page */
+/* .carousel-item-services{
     position: relative !important;
     width:100%;
     max-height: 300px !important;
   } */
 
+.services .fas {
+  color: #fff;
+  background: #f2c010;
+  padding: 5px;
+  border-radius: 5px;
+}
+/* End of Services  */
 
+/* Gallary */
+.underline-dark {
+  width: 150px;
+  border: 3px solid #888;
+  margin: auto;
+}
 
-  .services .fas {
-    color: #fff;
-    background:#F2C010;
-    padding: 5px;
-    border-radius: 5px;
-  }
-  /* End of Services  */
+.gallery-list-item {
+  color: #777;
+  cursor: pointer;
+  user-select: none;
+}
 
-  /* Gallary */
-  .underline-dark {
-    width: 150px;
-    border: 3px solid #888;
-    margin: auto;
-  }
-  
-  .gallery-list-item {
-    color: #777;
-    cursor: pointer;
-    user-select: none;
-  }
-  
-  .active-item {
-    color: black;
-    background-color: #F2C010;
-  }
-  /* End Gallary */
- .nav-contact a:hover{
-    color: #3769DA;
-  }
+.active-item {
+  color: black;
+  background-color: #f2c010;
+}
+/* End Gallary */
+.nav-contact a:hover {
+  color: #3769da;
+}
 
-  .gallery-img {
-   max-height: 200px;
-   max-width: 200px;
+.gallery-img {
+  max-height: 200px;
+  max-width: 200px;
+}
 
-  }
+.project img {
+  background: no-repeat center center / cover;
+  background-repeat: no-repeat;
+  max-height: 300px !important;
+}
 
-  .project img{
-    background: no-repeat center center /cover;
-    background-repeat: no-repeat;
-    max-height: 300px !important;
-  }
+.error-success {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding-bottom: 100px;
+  /* margin: 500px; */
+  height: calc(100vh - 100px);
+}
 
+.error-icon {
+  color: #e74c3c;
+}
 
-
-
-
-
-
-
-
-
+.success-icon {
+  color: #2f9404;
+}
