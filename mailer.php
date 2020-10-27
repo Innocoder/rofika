@@ -19,7 +19,7 @@ try {
 
 
     /* SMTP parameters. */
-   $mail->SMTPDebug = 2;
+//    $mail->SMTPDebug = 2;
    $mail->isSMTP();
     //From email settings in device connection
    $mail->Host = 'smtp.gmail.com';
